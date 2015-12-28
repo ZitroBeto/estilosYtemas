@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aqui definimos un estilo llamado "estilotexto" que toma como padre el estulo "textappareance
+    utilizado en los textview"-->
+
+    <style name="estiloTexto" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/verde</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Aqui definimos un estilo llamado "estilotexto.rojo" que toma como padre el estulo "estilotexto"
+    que a su vez hereda de "textappearance"-->
+
+    <style name="estiloTexto.rojo">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+</resources>
